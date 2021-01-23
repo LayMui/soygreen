@@ -1,4 +1,4 @@
-# vuejs-brownbag
+# Soygreen
 
 ## Project setup
 ```
