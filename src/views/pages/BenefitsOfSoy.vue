@@ -1,6 +1,6 @@
 <template>
   <div class="text-center">
-    <img src="../../assets/image/benefits-of-soy.png"/>
+    <img  contain height=500px width=900px src="../../assets/image/benefits-of-soy.png"/>
 
  
   </div>
