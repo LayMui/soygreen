@@ -1,0 +1,99 @@
+html {
+  font-size: 18px;
+
+  &.text-enlarge {
+    font-size: 25px;
+
+    .vue-codemirror {
+      font-size: 90%;
+    }
+  }
+}
+
+a.active {
+  color: #333333;
+  cursor: default;
+}
+
+#app {
+  padding-bottom: 2rem;
+}
+
+.site-title {
+  background: $primary;
+  color: #ffffff;
+  font-size: 1.2rem;
+  padding: 0.8rem;
+}
+
+.card {
+  padding: 1rem;
+  box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, 0.1);
+  border-radius: 1rem;
+
+  + .card {
+    margin-top: 2rem;
+  }
+}
+
+pre {
+  padding: 0 0.5rem;
+  border-radius: 1rem;
+}
+
+.vue-codemirror {
+  padding: 0.5rem;
+  background: #304148;
+  border-radius: 0.5rem;
+  font-size: 110%;
+}
+
+.text-muted {
+  color: rgb(170, 170, 170) !important
+}
+
+.header-menu {
+  position: absolute;
+  top: 5px;
+  right: 20px;
+
+  > div {
+    display: inline-block;
+  }
+}
+
+pre {
+  background: #f3f3f3;
+  padding: 1rem;
+}
+
+img {
+  max-width: 100%;
+}
+
+.app-aside {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 400px;
+  height: 100%;
+  background: #ffffff;
+  box-shadow: -0.5rem 0 2rem rgba(0, 0, 0, 0.05);
+  z-index: 20;
+  padding: 0.5rem;
+  transition: 0.3s;
+  transform: translateX(calc(100% + 0.5rem));
+
+  &__content {
+    padding: 1.5rem;
+  }
+
+  &.show {
+    transform: translateX(0);
+  }
+}
+
+.blockquote {
+  border-left: 0.5rem #eaeaea solid;
+  padding-left: 1.5rem;
+}
