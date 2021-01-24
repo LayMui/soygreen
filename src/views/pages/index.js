@@ -5,8 +5,8 @@ import Myths from './Myths'
 import PsyliumHusk from './PsyliumHusk'
 import Soygreen from './Soygreen'
 import Salad from './Salad'
-import CaloriesBurn from './CaloriesBurn'
 import CaloriesIntake from './CaloriesIntake'
+import CaloriesBurn from './CaloriesBurn'
 import ChooseSoyGreen from './ChooseSoyGreen'
 import Promotion from './Promotion'
 
@@ -61,18 +61,18 @@ const pages = [
     component: Salad
   },
   {
-    name: 'calories burn',
-    meta: {
-      title: 'Calories Burn'
-    }, 
-    component: CaloriesBurn
-  },
-  {
     name: 'calories intake',
     meta: {
       title: 'Calories intake'
     }, 
     component: CaloriesIntake
+  },
+  {
+    name: 'calories burn',
+    meta: {
+      title: 'Calories Burn'
+    }, 
+    component: CaloriesBurn
   },
   {
     name: 'choose SoyGreen',
